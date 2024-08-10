@@ -20,7 +20,7 @@ li {
 a {
     text-decoration: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 30px;
 }
 
 a:hover {
@@ -104,6 +104,7 @@ a:hover {
     margin-right: 50px;
     border-radius: 7px;
     font-weight: 700;
+    font-size: 18px;
     border: 1px solid #7f25fd;
     
     
@@ -134,8 +135,8 @@ a:hover {
     display: none;
     right: 2rem;
     top: -600px;
-    width: 300px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    width: 500px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
