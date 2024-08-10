@@ -7,10 +7,10 @@
 }
 
 body {
-    height: 100vh;
+    height: 80vh;
     background-color: #000000;
-    /* background: linear-gradient(180deg,rgb(0, 0, 0 ),rgb(41, 28, 53) ); */
-    
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(41, 28, 53));
+
 }
 
 li {
@@ -63,7 +63,8 @@ a:hover {
 
 .logo_title {
     position: relative;
-    font-size: 24px;
+    font-size: 1.5rem;
+    /* font-size:24px; */
     font-weight: 700;
     top: -13px;
     left: 5px;
@@ -84,7 +85,8 @@ a:hover {
 }
 
 .navbar .links li a {
-    font-size: 18px;
+    font-size: 1.1rem;
+    /* font-size: 18px; */
     font-weight: 600;
     font-family: "Merriweather Sans", sans-serif;
 }
@@ -104,18 +106,20 @@ a:hover {
     margin-right: 50px;
     border-radius: 7px;
     font-weight: 700;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.1rem;
     border: 1px solid #7f25fd;
-    
-    
+
+
 }
+
 .navbar .action_btn:hover {
     color: #7f25fd;
     background-color: #3e029300;
     padding: 8px 25px;
     margin-right: 50px;
     border-radius: 7px;
-   
+
     font-weight: 700;
     border: 2px solid #7f25fd;
 }
@@ -133,6 +137,7 @@ a:hover {
 .dropdown_menu {
     position: fixed;
     display: none;
+    z-index: 9999;
     right: 2rem;
     top: -600px;
     width: 500px;
@@ -179,12 +184,7 @@ a:hover {
 }
 
 .text_article {
-    /* border: 2px solid rgb(4, 255, 0); */
-    /* color: #6a32d9; */
-
-    /* font-size: 75px; */
-    /* font-weight: 900; */
-    /* font-family: "Merriweather Sans", sans-serif; */
+    margin-bottom: 7rem;
     height: 100%;
     width: 55%;
     min-width: 500px;
@@ -195,7 +195,8 @@ a:hover {
     /* border: 2px solid rgb(4, 255, 0); */
     color: #6a32d9;
 
-    font-size: 75px;
+    /* font-size: 75px; */
+    font-size: 4.5rem;
     font-weight: 900;
     font-family: "Merriweather Sans", sans-serif;
 
@@ -206,29 +207,34 @@ a:hover {
     /* border: 2px solid rgb(93, 0, 255); */
     color: #fff;
     height: 60vh;
-    width: 550px;
+    width: 414px;
+    margin-top: 7rem;
 
 
 }
 
- .slogan1{
+.slogan1 {
     color: #0cA2ff;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.6rem;
     margin-top: 25px;
     font-weight: 650;
-  
+
 }
-.slogan2{
+
+.slogan2 {
     color: #fff;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 1.4rem;
     margin-top: 10px;
     font-weight: 600;
     margin-bottom: 70px;
-} 
-.subscribe_btn{
+}
+
+.subscribe_btn {
     color: #fff;
     /* height: 55px; */
-    font-size: 18px;
+    font-size: 1.1rem;
     border-radius: 30px;
     /* margin: 14px 70px; */
     border: 2px solid #6a32d9;
@@ -237,37 +243,75 @@ a:hover {
     background-color: #6a32d9;
     transition: .5s;
 }
-.subscribe_btn:hover{
+
+.subscribe_btn:hover {
     color: #fff;
     border: 2px solid #6a32d9;
     /* height: 55px; */
     font-size: 18px;
     border-radius: 30px;
     /* margin: 14px 70px; */
-   
+
     padding: 11px 47px;
     font-weight: 500;
-    background:none;
+    background: none;
 }
+
 .bg_text {
     font-size: 83px;
     padding: 24px 98px;
     font-weight: 550;
     color: #ffffff3e;
-    
+
     transform: rotate(270deg);
 }
 
 .band_pic {
     /* height: 450px; */
     position: relative;
-    top: -10.7cm;
-    left: 1.5cm;
+    top: -11.2cm;
+    left: 0cm;
     width: 400px;
 }
 
 
+/* recognised companies----------------------------------------------------------------------------- */
+.recognised_comp {
 
+    /* height: 25rem; */
+    width: 90%;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(180deg, rgb(171, 171, 171), black);
+    /* border: 2px solid red; */
+}
+
+.headinfg {
+
+    width: fit-content;
+    margin: auto;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* border: 2px solid rgb(0, 110, 255); */
+
+}
+
+.images_com {
+    margin: 2rem auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+}
+
+.company_imgs {
+    height: fit-content;
+    border-radius: 10px;
+}
 
 
 
@@ -307,4 +351,17 @@ a:hover {
     .dropdown_menu {
         display: block;
     }
+
+    body {
+        height: 100vh;
+        background: black;
+        /* background: linear-gradient(180deg,rgb(0, 0, 0 ),rgb(41, 28, 53) ); */
+
+    }
+}
+
+@media(max-width:500px) {
+.recognised_comp{
+    width:40rem;
+}
 }
