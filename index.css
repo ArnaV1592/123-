@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: "Merriweather Sans", sans-serif; */
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Barlow", sans-serif;
 }
 
 body {
@@ -24,7 +25,8 @@ a {
 }
 
 a:hover {
-    color: #6735B8;
+    color: #0cA2ff;
+
 }
 
 /* header {
@@ -74,7 +76,7 @@ a:hover {
     margin-left: 3px;
     font-weight: 700;
     color: #0CA2FF;
-    font-family: "Merriweather Sans", sans-serif;
+    /* font-family: "Merriweather Sans", sans-serif; */
 }
 
 .navbar .links {
@@ -88,7 +90,13 @@ a:hover {
     font-size: 1.1rem;
     /* font-size: 18px; */
     font-weight: 600;
-    font-family: "Merriweather Sans", sans-serif;
+    /* font-family: "Merriweather Sans", sans-serif; */
+}
+.navbar .links li a :hover {
+    font-size: 1.1rem;
+    /* font-size: 18px; */
+    font-weight: 600;
+    /* font-family: "Merriweather Sans", sans-serif; */
 }
 
 .navbar .toggle_btn {
@@ -200,7 +208,7 @@ a:hover {
     /* font-size: 75px; */
     font-size: 4.5rem;
     font-weight: 900;
-    font-family: "Merriweather Sans", sans-serif;
+    /* font-family: "Merriweather Sans", sans-serif; */
 
 
 }
@@ -260,20 +268,29 @@ a:hover {
 }
 
 .bg_text {
-    font-size: 83px;
+    font-size: 100px;
     padding: 24px 98px;
     font-weight: 550;
-    color: #ffffff3e;
+    /* color: #ffffff3e; */
 
     transform: rotate(270deg);
 }
-
+.c1{
+    color: #ffffff20;
+}
+.c2{
+    color: #ffffff2c;
+}
+.c3{
+    color: #ffffff49;
+}
 .band_pic {
     /* height: 450px; */
     position: relative;
-    top: -12.4cm;
+    top: -12.2cm;
     left: 0cm;
     width: 400px;
+    backdrop-filter: blur(2px);
 }
 
 
@@ -310,10 +327,39 @@ a:hover {
     gap: 2rem;
 }
 
-.company_imgs {
+.com_pic {
     height: fit-content;
+    
+}
+.company_imgs1{
+    height: 6rem;
     border-radius: 10px;
 }
+.company_imgs2{
+    height: 6rem;
+    border-radius: 10px;
+}
+.company_imgs3{
+    height: 6rem;
+    border-radius: 10px;
+}
+.company_imgs4{
+    height: 9rem;
+    border-radius: 10px;
+}
+.company_imgs5{
+    height: 9rem;
+    border-radius: 10px;
+}
+.company_imgs6{
+    height: 9rem;
+    border-radius: 10px;
+}
+.company_imgs7{
+    height: 9rem;
+    border-radius: 10px;
+}
+
 
 
 
