@@ -9,7 +9,7 @@
 body {
     height: 80vh;
     background-color: #000000;
-    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(41, 28, 53));
+    /* background: linear-gradient(180deg, rgb(0, 0, 0), rgb(41, 28, 53)); */
 
 }
 
@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-    color: aqua;
+    color: #6735B8;
 }
 
 /* header {
@@ -73,7 +73,7 @@ a:hover {
 .logo_t2 {
     margin-left: 3px;
     font-weight: 700;
-    color: #0cA2ff;
+    color: #0CA2FF;
     font-family: "Merriweather Sans", sans-serif;
 }
 
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .navbar .action_btn {
-    color: #7f25fd;
+    color: #6735B8;
     background-color: #3e029365;
     padding: 8px 25px;
     margin-right: 50px;
@@ -108,20 +108,20 @@ a:hover {
     font-weight: 700;
     /* font-size: 18px; */
     font-size: 1.1rem;
-    border: 1px solid #7f25fd;
+    border: 1px solid #6735B8;
 
 
 }
 
 .navbar .action_btn:hover {
-    color: #7f25fd;
+    color: #6735B8;
     background-color: #3e029300;
     padding: 8px 25px;
     margin-right: 50px;
     border-radius: 7px;
 
     font-weight: 700;
-    border: 2px solid #7f25fd;
+    border: 2px solid #6735B8;
 }
 
 
@@ -163,13 +163,13 @@ a:hover {
 
 .dropdown_menu .action_btn {
     width: 100%;
-    color: #3f0293;
+    color: #6735B8;
     /* background-color: #3e029365; */
     padding: 8px 25px;
     border-radius: 7px;
     font-weight: 700;
     text-align: center;
-    border: 2px solid #3f0293;
+    border: 2px solid #6735B8;
 
 }
 
@@ -184,7 +184,9 @@ a:hover {
 }
 
 .text_article {
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
     height: 100%;
     width: 55%;
     min-width: 500px;
@@ -193,7 +195,7 @@ a:hover {
 
 .text_article1 {
     /* border: 2px solid rgb(4, 255, 0); */
-    color: #6a32d9;
+    color: #6735B8;
 
     /* font-size: 75px; */
     font-size: 4.5rem;
@@ -237,16 +239,16 @@ a:hover {
     font-size: 1.1rem;
     border-radius: 30px;
     /* margin: 14px 70px; */
-    border: 2px solid #6a32d9;
+    border: 2px solid #6735B8;
     padding: 11px 47px;
     font-weight: 500;
-    background-color: #6a32d9;
+    background-color: #6735B8;
     transition: .5s;
 }
 
 .subscribe_btn:hover {
     color: #fff;
-    border: 2px solid #6a32d9;
+    border: 2px solid #6735B8;
     /* height: 55px; */
     font-size: 18px;
     border-radius: 30px;
@@ -269,7 +271,7 @@ a:hover {
 .band_pic {
     /* height: 450px; */
     position: relative;
-    top: -11.2cm;
+    top: -12.4cm;
     left: 0cm;
     width: 400px;
 }
@@ -280,7 +282,7 @@ a:hover {
 
     /* height: 25rem; */
     width: 90%;
-    margin: auto;
+    margin: 2rem auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: linear-gradient(180deg, rgb(171, 171, 171), black);
