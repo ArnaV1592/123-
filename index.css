@@ -60,7 +60,8 @@ a:hover {
 }
 
 #logo_img {
-    height: 45px;
+    /* height: 45px; */
+    height: 13rem;
 }
 
 .logo_title {
@@ -356,10 +357,13 @@ a:hover {
     border-radius: 10px;
 }
 .company_imgs7{
-    height: 9rem;
+    height: 9rem; 
+    
     border-radius: 10px;
 }
-
+.company_imgs4,.company_imgs5,.company_imgs6,.company_imgs7{
+    margin: 0rem 2rem;
+}
 
 
 
