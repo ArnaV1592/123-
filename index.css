@@ -510,6 +510,16 @@ a:hover {
         border: 2px solid #990447;
         margin-bottom: 2rem;
     }
+    .join_btn:hover {
+        color: #fff;
+        font-size: 1.25rem;
+        padding: 0.7rem 2rem;
+        border-radius: 2rem;
+        font-weight: 700;
+        /* background-color: #9904472c; */
+        border: 2px solid #990447;
+        margin-bottom: 2rem;
+    }
 
     .recognised_mob{
         /* border: 2px solid red; */
@@ -643,6 +653,16 @@ a:hover {
         border-radius: 2rem;
         font-weight: 700;
         background-color: #9904472c;
+        border: 2px solid #990447;
+        margin-bottom: 2rem;
+    }
+    .join_btn:hover {
+        color: #fff;
+        font-size: 1.25rem;
+        padding: 0.7rem 2rem;
+        border-radius: 2rem;
+        font-weight: 700;
+        /* background-color: #9904472c; */
         border: 2px solid #990447;
         margin-bottom: 2rem;
     }
