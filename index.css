@@ -430,14 +430,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
 /* responsiv----------------------------------------------------------------------- */
 
 @media (min-width: 480px) and (max-width:999px) {
@@ -483,7 +475,7 @@ a:hover {
     .hero3 {
         margin-top: 35rem;
         text-align: center;
-        padding: 0.5rem 0.5rem;
+        padding: 0.5rem 0rem;
     }
     
     .slogan1_mob {
@@ -518,6 +510,63 @@ a:hover {
         border: 2px solid #990447;
         margin-bottom: 2rem;
     }
+
+    .recognised_mob{
+        /* border: 2px solid red; */
+        width: 100%;
+        border-radius: 0.5rem;
+        background: linear-gradient(180deg, #a8a8ff63, black);
+    }
+    .heading_reco_mob{
+        color: #ffae00;
+        text-align: center;
+        font-size: 1.22rem;
+        padding-top: 1rem;
+        font-weight: 700;
+    }
+    
+    .images_com_mob{
+        gap: 0.9rem;
+        margin: 2rem 0.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .company_mob_imgs1{
+    
+    border-radius: 10px;
+    }
+    .company_mob_imgs2{
+    
+    border-radius: 10px;
+    }
+    .company_mob_imgs3{
+    
+    border-radius: 10px;
+    }
+    .company_mob_imgs4{
+    
+    border-radius: 10px;
+    }
+    .company_mob_imgs5{
+    
+    border-radius: 10px;
+    }
+    .company_mob_imgs6{
+    
+    border-radius: 10px;
+    }
+    .company_mob_imgs7{
+    
+    border-radius: 10px;
+    }
+    
+    .company_mob_imgs1,.company_mob_imgs2,.company_mob_imgs3,.company_mob_imgs4,.company_mob_imgs5,.company_mob_imgs6,.company_mob_imgs7{
+        height: 4.5rem;
+    }
+    
 }
 
 @media (min-width: 320px) and (max-width:480px) {
@@ -562,7 +611,7 @@ a:hover {
     .hero3 {
         margin-top: 30rem;
         text-align: center;
-        padding: 0.5rem 0.5rem;
+        padding: 0.5rem 0rem;
     }
     
     .slogan1_mob {
@@ -597,6 +646,64 @@ a:hover {
         border: 2px solid #990447;
         margin-bottom: 2rem;
     }
+    
+
+.recognised_mob{
+    /* border: 2px solid red; */
+    width: 100%;
+    border-radius: 0.5rem;
+    background: linear-gradient(180deg, #a8a8ff63, black);
+}
+.heading_reco_mob{
+    color: #ffae00;
+    text-align: center;
+    font-size: 1.22rem;
+    padding-top: 1rem;
+    font-weight: 700;
+}
+
+.images_com_mob{
+    gap: 0.9rem;
+    margin: 2rem 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+.company_mob_imgs1{
+
+border-radius: 10px;
+}
+.company_mob_imgs2{
+
+border-radius: 10px;
+}
+.company_mob_imgs3{
+
+border-radius: 10px;
+}
+.company_mob_imgs4{
+
+border-radius: 10px;
+}
+.company_mob_imgs5{
+
+border-radius: 10px;
+}
+.company_mob_imgs6{
+
+border-radius: 10px;
+}
+.company_mob_imgs7{
+
+border-radius: 10px;
+}
+
+.company_mob_imgs1,.company_mob_imgs2,.company_mob_imgs3,.company_mob_imgs4,.company_mob_imgs5,.company_mob_imgs6,.company_mob_imgs7{
+    height: 2.3rem;
+}
+
 
 }
 @media(max-width:320px) {
@@ -684,7 +791,7 @@ a:hover {
     .hero3 {
         margin-top: 27rem;
         text-align: center;
-        padding: 0.5rem 0.5rem;
+        padding: 0.5rem 0rem;
       }
       .sl
     .band1_mob {
@@ -694,6 +801,59 @@ a:hover {
         left: 50%;
         /* opacity: 0.5; */
         transform: translate(-50%, -50%);
+    }
+
+    /* recognized sectiom----------------------------------- */
+    .recognised_mob{
+        /* border: 2px solid red; */
+        width: 100%;
+        border-radius: 0.5rem;
+        background: linear-gradient(180deg, #a8a8ff63, black);
+    }
+    .heading_reco_mob{
+        color: #ffae00;
+        text-align: center;
+        font-size: 1.22rem;
+        padding-top: 1rem;
+        font-weight: 700;
+    }
+    
+    .images_com_mob{
+        gap: 0.9rem;
+        margin: 2rem 0.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .company_mob_imgs1{
+    height: 2rem;
+    border-radius: 10px;
+    }
+    .company_mob_imgs2{
+    height: 2rem;
+    border-radius: 10px;
+    }
+    .company_mob_imgs3{
+    height: 2rem;
+    border-radius: 10px;
+    }
+    .company_mob_imgs4{
+    height: 2rem;
+    border-radius: 10px;
+    }
+    .company_mob_imgs5{
+    height: 2rem;
+    border-radius: 10px;
+    }
+    .company_mob_imgs6{
+    height: 2rem;
+    border-radius: 10px;
+    }
+    .company_mob_imgs7{
+    height: 2rem;
+    border-radius: 10px;
     }
 }
 
