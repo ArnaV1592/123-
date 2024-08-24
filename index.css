@@ -542,6 +542,7 @@ a:hover {
         flex-wrap: wrap;
         justify-content: center;
         justify-items: center;
+        padding-bottom: 1rem;
     }
     
     .company_mob_imgs1{
@@ -689,6 +690,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
+    padding-bottom: 1rem;
 }
 
 .company_mob_imgs1{
@@ -845,6 +847,7 @@ border-radius: 10px;
         flex-wrap: wrap;
         justify-content: center;
         justify-items: center;
+        padding-bottom: 1rem;
     }
     
     .company_mob_imgs1{
