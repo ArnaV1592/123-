@@ -408,6 +408,17 @@ a:hover {
 
 
 
+
+
+
+.copyright {
+    color: #c6c3c3;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+
 .mob_view {
     display: none;
 }
@@ -438,14 +449,14 @@ a:hover {
         justify-content: center;
         justify-items: center;
     }
-    
+
     /* .landimg_part_1 {
         width: 100%;
         margin-top: 6rem;
         
     
         } */
-    
+
     .landimg_para_mob {
         text-align: center;
         color: #6735B8;
@@ -461,7 +472,7 @@ a:hover {
         transform: translate(-50%, -50%);
         /* position: absolute; */
     }
-    
+
     .band1_mob {
         width: 19rem;
         position: absolute;
@@ -471,13 +482,13 @@ a:hover {
         /* opacity: 0.5; */
         transform: translate(-50%, -50%);
     }
-    
+
     .hero3 {
         margin-top: 35rem;
         text-align: center;
         padding: 0.5rem 0rem;
     }
-    
+
     .slogan1_mob {
         color: #0cA2ff;
         /* font-size: 25px; */
@@ -485,9 +496,9 @@ a:hover {
         width: 100%;
         margin-top: 25px;
         font-weight: 650;
-    
+
     }
-    
+
     .slogan2_mob {
         color: #fff;
         /* font-size: 22px; */
@@ -496,10 +507,12 @@ a:hover {
         font-weight: 600;
         margin-bottom: 70px;
     }
-    .band2_mob{
+
+    .band2_mob {
         width: 34rem;
         display: block;
     }
+
     .join_btn {
         color: #fff;
         font-size: 1.25rem;
@@ -510,6 +523,7 @@ a:hover {
         border: 2px solid #990447;
         margin-bottom: 2rem;
     }
+
     .join_btn:hover {
         color: #fff;
         font-size: 1.25rem;
@@ -521,21 +535,22 @@ a:hover {
         margin-bottom: 2rem;
     }
 
-    .recognised_mob{
+    .recognised_mob {
         /* border: 2px solid red; */
         width: 100%;
         border-radius: 0.5rem;
         background: linear-gradient(180deg, #a8a8ff63, black);
     }
-    .heading_reco_mob{
+
+    .heading_reco_mob {
         color: #ffae00;
         text-align: center;
         font-size: 1.22rem;
         padding-top: 1rem;
         font-weight: 700;
     }
-    
-    .images_com_mob{
+
+    .images_com_mob {
         gap: 0.9rem;
         margin: 1rem 0.2rem;
         display: flex;
@@ -544,40 +559,52 @@ a:hover {
         justify-items: center;
         padding-bottom: 1rem;
     }
-    
-    .company_mob_imgs1{
-    
-    border-radius: 10px;
+
+    .company_mob_imgs1 {
+
+        border-radius: 10px;
     }
-    .company_mob_imgs2{
-    
-    border-radius: 10px;
+
+    .company_mob_imgs2 {
+
+        border-radius: 10px;
     }
-    .company_mob_imgs3{
-    
-    border-radius: 10px;
+
+    .company_mob_imgs3 {
+
+        border-radius: 10px;
     }
-    .company_mob_imgs4{
-    
-    border-radius: 10px;
+
+    .company_mob_imgs4 {
+
+        border-radius: 10px;
     }
-    .company_mob_imgs5{
-    
-    border-radius: 10px;
+
+    .company_mob_imgs5 {
+
+        border-radius: 10px;
     }
-    .company_mob_imgs6{
-    
-    border-radius: 10px;
+
+    .company_mob_imgs6 {
+
+        border-radius: 10px;
     }
-    .company_mob_imgs7{
-    
-    border-radius: 10px;
+
+    .company_mob_imgs7 {
+
+        border-radius: 10px;
     }
-    
-    .company_mob_imgs1,.company_mob_imgs2,.company_mob_imgs3,.company_mob_imgs4,.company_mob_imgs5,.company_mob_imgs6,.company_mob_imgs7{
+
+    .company_mob_imgs1,
+    .company_mob_imgs2,
+    .company_mob_imgs3,
+    .company_mob_imgs4,
+    .company_mob_imgs5,
+    .company_mob_imgs6,
+    .company_mob_imgs7 {
         height: 4.5rem;
     }
-    
+
 }
 
 @media (min-width: 320px) and (max-width:480px) {
@@ -586,14 +613,14 @@ a:hover {
         justify-content: center;
         justify-items: center;
     }
-    
+
     /* .landimg_part_1 {
         width: 100%;
         margin-top: 6rem;
         
     
         } */
-    
+
     .landimg_para_mob {
         text-align: center;
         color: #6735B8;
@@ -609,7 +636,7 @@ a:hover {
         transform: translate(-50%, -50%);
         /* position: absolute; */
     }
-    
+
     .band1_mob {
         position: absolute;
         top: 40%;
@@ -618,13 +645,13 @@ a:hover {
         /* opacity: 0.5; */
         transform: translate(-50%, -50%);
     }
-    
+
     .hero3 {
         margin-top: 30rem;
         text-align: center;
         padding: 0.5rem 0rem;
     }
-    
+
     .slogan1_mob {
         color: #0cA2ff;
         /* font-size: 25px; */
@@ -632,9 +659,9 @@ a:hover {
         width: 100%;
         margin-top: 25px;
         font-weight: 650;
-    
+
     }
-    
+
     .slogan2_mob {
         color: #fff;
         /* font-size: 22px; */
@@ -643,10 +670,12 @@ a:hover {
         font-weight: 600;
         margin-bottom: 70px;
     }
-    .band2_mob{
+
+    .band2_mob {
         width: 20rem;
         display: block;
     }
+
     .join_btn {
         color: #fff;
         font-size: 1.25rem;
@@ -657,6 +686,7 @@ a:hover {
         border: 2px solid #990447;
         margin-bottom: 2rem;
     }
+
     .join_btn:hover {
         color: #fff;
         font-size: 1.25rem;
@@ -667,67 +697,86 @@ a:hover {
         border: 2px solid #990447;
         margin-bottom: 2rem;
     }
-    
 
-.recognised_mob{
-    /* border: 2px solid red; */
-    width: 100%;
-    border-radius: 0.5rem;
-    background: linear-gradient(180deg, #a8a8ff63, black);
+
+    .recognised_mob {
+        /* border: 2px solid red; */
+        width: 100%;
+        border-radius: 0.5rem;
+        background: linear-gradient(180deg, #a8a8ff63, black);
+    }
+
+    .heading_reco_mob {
+        color: #ffae00;
+        text-align: center;
+        font-size: 1.22rem;
+        padding-top: 1rem;
+        font-weight: 700;
+    }
+
+    .images_com_mob {
+        gap: 0.9rem;
+        margin: 1rem 0.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 1rem;
+    }
+
+    .company_mob_imgs1 {
+
+        border-radius: 10px;
+    }
+
+    .company_mob_imgs2 {
+
+        border-radius: 10px;
+    }
+
+    .company_mob_imgs3 {
+
+        border-radius: 10px;
+    }
+
+    .company_mob_imgs4 {
+
+        border-radius: 10px;
+    }
+
+    .company_mob_imgs5 {
+
+        border-radius: 10px;
+    }
+
+    .company_mob_imgs6 {
+
+        border-radius: 10px;
+    }
+
+    .company_mob_imgs7 {
+
+        border-radius: 10px;
+    }
+
+    .company_mob_imgs1,
+    .company_mob_imgs2,
+    .company_mob_imgs3,
+    .company_mob_imgs4,
+    .company_mob_imgs5,
+    .company_mob_imgs6,
+    .company_mob_imgs7 {
+        height: 2.3rem;
+    }
+    .copyright {
+        color: #c6c3c3;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.5rem;
+    }
+
 }
-.heading_reco_mob{
-    color: #ffae00;
-    text-align: center;
-    font-size: 1.22rem;
-    padding-top: 1rem;
-    font-weight: 700;
-}
 
-.images_com_mob{
-    gap: 0.9rem;
-    margin: 1rem 0.2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    padding-bottom: 1rem;
-}
-
-.company_mob_imgs1{
-
-border-radius: 10px;
-}
-.company_mob_imgs2{
-
-border-radius: 10px;
-}
-.company_mob_imgs3{
-
-border-radius: 10px;
-}
-.company_mob_imgs4{
-
-border-radius: 10px;
-}
-.company_mob_imgs5{
-
-border-radius: 10px;
-}
-.company_mob_imgs6{
-
-border-radius: 10px;
-}
-.company_mob_imgs7{
-
-border-radius: 10px;
-}
-
-.company_mob_imgs1,.company_mob_imgs2,.company_mob_imgs3,.company_mob_imgs4,.company_mob_imgs5,.company_mob_imgs6,.company_mob_imgs7{
-    height: 2.3rem;
-}
-
-
-}
 @media(max-width:320px) {
 
     .dropdown_menu {
@@ -744,42 +793,42 @@ border-radius: 10px;
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         overflow: hidden;
-    
+
         transition: .2s;
-    
-    
+
+
     }
-    
+
     .dropdown_menu li {
         padding: 0.13rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     .dropdown_menu li .drop_btn {
         width: 100%;
-    
+
         padding: 8px 25px;
         border-radius: 0.7rem;
-    
+
         text-align: center;
         /* border: 2px solid #747373; */
-    
-    
+
+
     }
-    
+
     .dropdown_menu li .drop_btn:hover {
         width: 100%;
-    
+
         padding: 8px 25px;
         border-radius: 0.7rem;
-    
+
         text-align: center;
         border: 2px solid #747373;
-    
+
     }
-    
+
     .dropdown_menu .action_btn {
         width: 100%;
         color: #6735B8;
@@ -789,7 +838,7 @@ border-radius: 10px;
         font-weight: 700;
         text-align: center;
         border: 2px solid #6735B8;
-    
+
     }
 
     /* next thigs------------------------------------------------------------------------ */
@@ -810,13 +859,14 @@ border-radius: 10px;
         transform: translate(-50%, -50%);
         /* position: absolute; */
     }
+
     .hero3 {
         margin-top: 27rem;
         text-align: center;
         padding: 0.5rem 0rem;
-      }
-      .sl
-    .band1_mob {
+    }
+
+    .sl .band1_mob {
         position: absolute;
         top: 40%;
         z-index: 15;
@@ -826,21 +876,22 @@ border-radius: 10px;
     }
 
     /* recognized sectiom----------------------------------- */
-    .recognised_mob{
+    .recognised_mob {
         /* border: 2px solid red; */
         width: 100%;
         border-radius: 0.5rem;
         background: linear-gradient(180deg, #a8a8ff63, black);
     }
-    .heading_reco_mob{
+
+    .heading_reco_mob {
         color: #ffae00;
         text-align: center;
         font-size: 1.22rem;
         padding-top: 1rem;
         font-weight: 700;
     }
-    
-    .images_com_mob{
+
+    .images_com_mob {
         gap: 0.9rem;
         margin: 1rem 0.2rem;
         display: flex;
@@ -849,34 +900,47 @@ border-radius: 10px;
         justify-items: center;
         padding-bottom: 1rem;
     }
-    
-    .company_mob_imgs1{
-    height: 2rem;
-    border-radius: 10px;
+
+    .company_mob_imgs1 {
+        height: 2rem;
+        border-radius: 10px;
     }
-    .company_mob_imgs2{
-    height: 2rem;
-    border-radius: 10px;
+
+    .company_mob_imgs2 {
+        height: 2rem;
+        border-radius: 10px;
     }
-    .company_mob_imgs3{
-    height: 2rem;
-    border-radius: 10px;
+
+    .company_mob_imgs3 {
+        height: 2rem;
+        border-radius: 10px;
     }
-    .company_mob_imgs4{
-    height: 2rem;
-    border-radius: 10px;
+
+    .company_mob_imgs4 {
+        height: 2rem;
+        border-radius: 10px;
     }
-    .company_mob_imgs5{
-    height: 2rem;
-    border-radius: 10px;
+
+    .company_mob_imgs5 {
+        height: 2rem;
+        border-radius: 10px;
     }
-    .company_mob_imgs6{
-    height: 2rem;
-    border-radius: 10px;
+
+    .company_mob_imgs6 {
+        height: 2rem;
+        border-radius: 10px;
     }
-    .company_mob_imgs7{
-    height: 2rem;
-    border-radius: 10px;
+
+    .company_mob_imgs7 {
+        height: 2rem;
+        border-radius: 10px;
+    }
+
+    .copyright {
+        color: #c6c3c3;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.5rem;
     }
 }
 
@@ -927,6 +991,8 @@ border-radius: 10px;
         margin-right: 1rem;
 
     }
+
+
 
 }
 
