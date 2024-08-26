@@ -477,6 +477,8 @@ a:hover {
         width: 19rem;
         position: absolute;
         top: 30%;
+        width: 30rem;
+        filter: drop-shadow(-1px 0px 20px #ffdd009a);
         z-index: 15;
         left: 50%;
         /* opacity: 0.5; */
@@ -510,6 +512,7 @@ a:hover {
 
     .band2_mob {
         width: 34rem;
+        filter: drop-shadow(-1px 0px 10px #ffffff9a);
         display: block;
     }
 
@@ -641,6 +644,8 @@ a:hover {
         position: absolute;
         top: 40%;
         z-index: 15;
+        width: 22rem;
+        filter: drop-shadow(-1px 0px 20px #ffdd009a);
         left: 50%;
         /* opacity: 0.5; */
         transform: translate(-50%, -50%);
@@ -673,6 +678,7 @@ a:hover {
 
     .band2_mob {
         width: 20rem;
+        filter: drop-shadow(-1px 0px 10px #ffffff9a);
         display: block;
     }
 
@@ -866,10 +872,12 @@ a:hover {
         padding: 0.5rem 0rem;
     }
 
-    .sl .band1_mob {
+    .band1_mob {
         position: absolute;
         top: 40%;
         z-index: 15;
+        width: 20rem;
+        filter: drop-shadow(-1px 0px 20px #ffdd009a);
         left: 50%;
         /* opacity: 0.5; */
         transform: translate(-50%, -50%);
