@@ -375,8 +375,16 @@ a:hover {
     height: 6rem;
     border-radius: 10px;
 }
+.company_imgs9 {
+    height: 9rem;
+    border-radius: 10px;
+}
 
 .company_imgs4 {
+    height: 9rem;
+    border-radius: 10px;
+}
+.company_imgs8 {
     height: 9rem;
     border-radius: 10px;
 }
@@ -597,6 +605,14 @@ a:hover {
 
         border-radius: 10px;
     }
+    .company_mob_imgs8 {
+
+        border-radius: 10px;
+    }
+    .company_mob_imgs9 {
+
+        border-radius: 10px;
+    }
 
     .company_mob_imgs1,
     .company_mob_imgs2,
@@ -604,7 +620,9 @@ a:hover {
     .company_mob_imgs4,
     .company_mob_imgs5,
     .company_mob_imgs6,
-    .company_mob_imgs7 {
+    .company_mob_imgs7,
+    .company_mob_imgs8,
+    .company_mob_imgs9  {
         height: 4.5rem;
     }
 
@@ -764,6 +782,14 @@ a:hover {
 
         border-radius: 10px;
     }
+    .company_mob_imgs8 {
+
+        border-radius: 10px;
+    }
+    .company_mob_imgs9 {
+
+        border-radius: 10px;
+    }
 
     .company_mob_imgs1,
     .company_mob_imgs2,
@@ -771,7 +797,9 @@ a:hover {
     .company_mob_imgs4,
     .company_mob_imgs5,
     .company_mob_imgs6,
-    .company_mob_imgs7 {
+    .company_mob_imgs7,
+    .company_mob_imgs8,
+    .company_mob_imgs9 {
         height: 2.3rem;
     }
     .copyright {
